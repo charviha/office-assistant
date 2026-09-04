@@ -1,0 +1,9 @@
+asset_id,employee_id,asset_type,model,serial_number,status
+IT001,EMP001,Laptop,Dell Latitude 5440,TNV001,Assigned
+IT002,EMP002,Laptop,HP EliteBook 840,TNV002,Assigned
+IT003,EMP003,Laptop,Lenovo ThinkPad E14,TNV003,Assigned
+IT004,EMP004,Laptop,Dell Latitude 5440,TNV004,Assigned
+IT005,EMP005,Laptop,HP EliteBook 840,TNV005,Assigned
+IT006,EMP006,Laptop,Lenovo ThinkPad E14,TNV006,Assigned
+IT007,EMP001,Monitor,Dell P2422H,TNV007,Assigned
+IT008,EMP002,Monitor,Dell P2422H,TNV008,Assigned

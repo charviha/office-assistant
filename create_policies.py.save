@@ -1,0 +1,6 @@
+from pathlib import Path
+
+POLICY_DIR = Path("data/policies")
+POLICY_DIR.mkdir(parents=True, exist_ok=True)
+
+policies = {

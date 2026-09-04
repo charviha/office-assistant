@@ -1,0 +1,11 @@
+employee_id,name,department,designation,location,joining_date
+EMP001,Ananya Sharma,Engineering,Senior Software Engineer,Bengaluru,2023-06-12
+EMP002,Rahul Kumar,Data,Data Analyst,Chennai,2024-01-15
+EMP003,Priya Nair,HR,HR Executive,Bengaluru,2022-08-20
+EMP004,Arjun Rao,Engineering,Software Engineer,Hyderabad,2024-05-10
+EMP005,Meera Singh,Finance,Finance Analyst,Pune,2023-11-01
+EMP006,Karthik Iyer,Data,Data Scientist,Chennai,2023-03-18
+EMP007,Sneha Patel,Engineering,Software Engineer,Bengaluru,2024-07-22
+EMP008,Vikram Joshi,Finance,Finance Manager,Pune,2021-09-14
+EMP009,Divya Menon,HR,HR Manager,Hyderabad,2020-02-10
+EMP010,Rohan Gupta,Engineering,Engineering Manager,Bengaluru,2019-06-25
