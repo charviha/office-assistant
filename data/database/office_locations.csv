@@ -1,5 +1,51 @@
-office_id,city,address,capacity,facilities
-OFF001,Bengaluru,TechNova Campus Whitefield,500,Cafeteria;Gym;Parking;Meeting Rooms
-OFF002,Chennai,TechNova Campus OMR,350,Cafeteria;Parking;Meeting Rooms
-OFF003,Hyderabad,TechNova Campus Hitech City,300,Cafeteria;Parking;Meeting Rooms
-OFF004,Pune,TechNova Campus Hinjewadi,250,Cafeteria;Parking;Meeting Rooms
+location_id,city,state,country,building_name,floor,address,region,facilities,seating_capacity,contact_email
+L001,Chennai,Tamil Nadu,IN,TechNova Tower C,Floor 1,"58, Anna Salai, Chennai",South,"Meeting Pods, Terrace Lounge, Cafeteria",50,facilities.chennai@technova.com
+L002,Chennai,Tamil Nadu,IN,TechNova Tower A,Floor 2,"115, Hitech City Road, Chennai",South,"Meeting Pods, Terrace Lounge, Cafeteria",30,facilities.chennai@technova.com
+L003,Chennai,Tamil Nadu,IN,TechNova Tower C,Floor 3,"380, SG Highway, Chennai",South,"Cafeteria, Parking, Gym",80,facilities.chennai@technova.com
+L004,Chennai,Tamil Nadu,IN,TechNova Tower B,Floor 4,"17, Anna Salai, Chennai",South,"Cafeteria, Parking, Gym",40,facilities.chennai@technova.com
+L005,Chennai,Tamil Nadu,IN,TechNova Tower A,Floor 5,"259, Park Street, Chennai",South,"Cafeteria, Parking, Gym",80,facilities.chennai@technova.com
+L006,Bengaluru,Karnataka,IN,TechNova Tower A,Floor 1,"367, SG Highway, Bengaluru",South,"Meeting Rooms, Cafeteria, Nap Pods",40,facilities.bengaluru@technova.com
+L007,Bengaluru,Karnataka,IN,TechNova Tower B,Floor 2,"302, Andheri Link Road, Bengaluru",South,"Cafeteria, Parking, Gym",40,facilities.bengaluru@technova.com
+L008,Bengaluru,Karnataka,IN,TechNova Tower C,Floor 3,"217, Cyber Hub Road, Bengaluru",South,"Recreation Zone, Parking, Cafeteria",40,facilities.bengaluru@technova.com
+L009,Bengaluru,Karnataka,IN,TechNova Tower A,Floor 4,"491, Cyber Hub Road, Bengaluru",South,"Cafeteria, Parking, Gym",30,facilities.bengaluru@technova.com
+L010,Bengaluru,Karnataka,IN,TechNova Tower B,Floor 5,"50, Cyber Hub Road, Bengaluru",South,"Recreation Zone, Parking, Cafeteria",80,facilities.bengaluru@technova.com
+L011,Hyderabad,Telangana,IN,TechNova Tower B,Floor 1,"414, Anna Salai, Hyderabad",South,"Meeting Pods, Terrace Lounge, Cafeteria",60,facilities.hyderabad@technova.com
+L012,Hyderabad,Telangana,IN,TechNova Tower C,Floor 2,"64, Marine Drive, Hyderabad",South,"Cafeteria, Parking, Gym",80,facilities.hyderabad@technova.com
+L013,Hyderabad,Telangana,IN,TechNova Tower B,Floor 3,"425, Park Street, Hyderabad",South,"Recreation Zone, Parking, Cafeteria",80,facilities.hyderabad@technova.com
+L014,Hyderabad,Telangana,IN,TechNova Tower A,Floor 4,"361, MG Road, Hyderabad",South,"Cafeteria, Parking, Gym",40,facilities.hyderabad@technova.com
+L015,Hyderabad,Telangana,IN,TechNova Tower B,Floor 5,"41, Baner Road, Hyderabad",South,"Cafeteria, Parking, Gym",60,facilities.hyderabad@technova.com
+L016,Pune,Maharashtra,IN,TechNova Tower B,Floor 1,"233, Cyber Hub Road, Pune",West,"Cafeteria, Meeting Pods, Server Room",50,facilities.pune@technova.com
+L017,Pune,Maharashtra,IN,TechNova Tower B,Floor 2,"108, Andheri Link Road, Pune",West,"Meeting Pods, Terrace Lounge, Cafeteria",30,facilities.pune@technova.com
+L018,Pune,Maharashtra,IN,TechNova Tower C,Floor 3,"326, Hitech City Road, Pune",West,"Parking, Cafeteria, Client Lounge",40,facilities.pune@technova.com
+L019,Pune,Maharashtra,IN,TechNova Tower A,Floor 4,"237, Marine Drive, Pune",West,"Recreation Zone, Parking, Cafeteria",80,facilities.pune@technova.com
+L020,Pune,Maharashtra,IN,TechNova Tower A,Floor 5,"351, Cyber Hub Road, Pune",West,"Cafeteria, Parking, Gym",40,facilities.pune@technova.com
+L021,Mumbai,Maharashtra,IN,TechNova Tower A,Floor 1,"413, Cyber Hub Road, Mumbai",West,"Meeting Rooms, Cafeteria, Nap Pods",50,facilities.mumbai@technova.com
+L022,Mumbai,Maharashtra,IN,TechNova Tower A,Floor 2,"109, Park Street, Mumbai",West,"Meeting Pods, Terrace Lounge, Cafeteria",50,facilities.mumbai@technova.com
+L023,Mumbai,Maharashtra,IN,TechNova Tower A,Floor 3,"336, Race Course Road, Mumbai",West,"Meeting Rooms, Cafeteria, Nap Pods",60,facilities.mumbai@technova.com
+L024,Mumbai,Maharashtra,IN,TechNova Tower A,Floor 4,"136, Hitech City Road, Mumbai",West,"Cafeteria, Meeting Pods, Server Room",80,facilities.mumbai@technova.com
+L025,Mumbai,Maharashtra,IN,TechNova Tower C,Floor 5,"135, Park Street, Mumbai",West,"Meeting Rooms, Cafeteria, Nap Pods",80,facilities.mumbai@technova.com
+L026,Gurugram,Haryana,IN,TechNova Tower B,Floor 1,"186, Baner Road, Gurugram",North/East,"Cafeteria, Meeting Pods, Server Room",80,facilities.gurugram@technova.com
+L027,Gurugram,Haryana,IN,TechNova Tower B,Floor 2,"47, Anna Salai, Gurugram",North/East,"Cafeteria, Parking, Gym",40,facilities.gurugram@technova.com
+L028,Gurugram,Haryana,IN,TechNova Tower C,Floor 3,"82, Marine Drive, Gurugram",North/East,"Parking, Cafeteria, Client Lounge",30,facilities.gurugram@technova.com
+L029,Gurugram,Haryana,IN,TechNova Tower B,Floor 4,"196, Park Street, Gurugram",North/East,"Meeting Rooms, Cafeteria, Nap Pods",80,facilities.gurugram@technova.com
+L030,Gurugram,Haryana,IN,TechNova Tower B,Floor 5,"498, SG Highway, Gurugram",North/East,"Cafeteria, Parking, Gym",30,facilities.gurugram@technova.com
+L031,Kochi,Kerala,IN,TechNova Tower C,Floor 1,"454, SG Highway, Kochi",South,"Recreation Zone, Parking, Cafeteria",50,facilities.kochi@technova.com
+L032,Kochi,Kerala,IN,TechNova Tower A,Floor 2,"151, Marine Drive, Kochi",South,"Cafeteria, Meeting Pods, Server Room",60,facilities.kochi@technova.com
+L033,Kochi,Kerala,IN,TechNova Tower A,Floor 3,"489, Andheri Link Road, Kochi",South,"Parking, Cafeteria, Client Lounge",40,facilities.kochi@technova.com
+L034,Kochi,Kerala,IN,TechNova Tower C,Floor 4,"468, MG Road, Kochi",South,"Meeting Pods, Terrace Lounge, Cafeteria",50,facilities.kochi@technova.com
+L035,Kochi,Kerala,IN,TechNova Tower C,Floor 5,"260, Park Street, Kochi",South,"Cafeteria, Meeting Pods, Server Room",40,facilities.kochi@technova.com
+L036,Coimbatore,Tamil Nadu,IN,TechNova Tower B,Floor 1,"391, Hitech City Road, Coimbatore",South,"Parking, Cafeteria, Client Lounge",80,facilities.coimbatore@technova.com
+L037,Coimbatore,Tamil Nadu,IN,TechNova Tower A,Floor 2,"307, Cyber Hub Road, Coimbatore",South,"Meeting Rooms, Cafeteria, Nap Pods",30,facilities.coimbatore@technova.com
+L038,Coimbatore,Tamil Nadu,IN,TechNova Tower A,Floor 3,"476, Cyber Hub Road, Coimbatore",South,"Recreation Zone, Parking, Cafeteria",40,facilities.coimbatore@technova.com
+L039,Coimbatore,Tamil Nadu,IN,TechNova Tower A,Floor 4,"124, Park Street, Coimbatore",South,"Cafeteria, Parking, Gym",30,facilities.coimbatore@technova.com
+L040,Coimbatore,Tamil Nadu,IN,TechNova Tower C,Floor 5,"249, MG Road, Coimbatore",South,"Parking, Cafeteria, Client Lounge",40,facilities.coimbatore@technova.com
+L041,Ahmedabad,Gujarat,IN,TechNova Tower A,Floor 1,"338, Race Course Road, Ahmedabad",West,"Parking, Cafeteria, Client Lounge",40,facilities.ahmedabad@technova.com
+L042,Ahmedabad,Gujarat,IN,TechNova Tower B,Floor 2,"271, Park Street, Ahmedabad",West,"Meeting Rooms, Cafeteria, Nap Pods",40,facilities.ahmedabad@technova.com
+L043,Ahmedabad,Gujarat,IN,TechNova Tower C,Floor 3,"387, Baner Road, Ahmedabad",West,"Meeting Pods, Terrace Lounge, Cafeteria",50,facilities.ahmedabad@technova.com
+L044,Ahmedabad,Gujarat,IN,TechNova Tower B,Floor 4,"344, Cyber Hub Road, Ahmedabad",West,"Meeting Rooms, Cafeteria, Nap Pods",80,facilities.ahmedabad@technova.com
+L045,Ahmedabad,Gujarat,IN,TechNova Tower B,Floor 5,"62, Baner Road, Ahmedabad",West,"Cafeteria, Meeting Pods, Server Room",30,facilities.ahmedabad@technova.com
+L046,Kolkata,West Bengal,IN,TechNova Tower B,Floor 1,"11, Park Street, Kolkata",North/East,"Parking, Cafeteria, Client Lounge",40,facilities.kolkata@technova.com
+L047,Kolkata,West Bengal,IN,TechNova Tower C,Floor 2,"113, Anna Salai, Kolkata",North/East,"Cafeteria, Parking, Gym",30,facilities.kolkata@technova.com
+L048,Kolkata,West Bengal,IN,TechNova Tower A,Floor 3,"35, Anna Salai, Kolkata",North/East,"Recreation Zone, Parking, Cafeteria",30,facilities.kolkata@technova.com
+L049,Kolkata,West Bengal,IN,TechNova Tower C,Floor 4,"122, Andheri Link Road, Kolkata",North/East,"Meeting Pods, Terrace Lounge, Cafeteria",60,facilities.kolkata@technova.com
+L050,Kolkata,West Bengal,IN,TechNova Tower A,Floor 5,"277, Hitech City Road, Kolkata",North/East,"Meeting Pods, Terrace Lounge, Cafeteria",80,facilities.kolkata@technova.com

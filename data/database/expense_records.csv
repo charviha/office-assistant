@@ -1,11 +1,91 @@
-expense_id,employee_id,date,category,amount,status
-EXP001,EMP001,2026-08-10,Travel,4500,Approved
-EXP002,EMP001,2026-08-15,Food,850,Approved
-EXP003,EMP001,2026-08-22,Hotel,3200,Pending
-EXP004,EMP002,2026-08-20,Hotel,3200,Pending
-EXP005,EMP002,2026-08-22,Travel,2100,Approved
-EXP006,EMP003,2026-08-18,Travel,5200,Approved
-EXP007,EMP004,2026-08-25,Food,1200,Pending
-EXP008,EMP005,2026-08-12,Travel,3800,Approved
-EXP009,EMP006,2026-08-28,Hotel,2900,Pending
-EXP010,EMP007,2026-08-19,Travel,4100,Approved
+expense_id,employee_id,category,amount,currency,expense_date,submitted_date,status,description,approver_id
+EXP0001,EMP049,Cab/Local Conveyance,1892,INR,2026-08-20,2026-08-25,Approved,Cab/Local Conveyance expense incurred on 20 Aug 2026,EMP050
+EXP0002,EMP032,Internet Reimbursement,848,INR,2026-08-29,2026-09-06,Approved,Internet Reimbursement expense incurred on 29 Aug 2026,EMP024
+EXP0003,EMP006,Internet Reimbursement,1276,INR,2026-05-15,2026-05-22,Pending,Internet Reimbursement expense incurred on 15 May 2026,EMP029
+EXP0004,EMP051,Travel,4549,INR,2026-06-23,2026-06-28,Pending,Travel expense incurred on 23 Jun 2026,EMP024
+EXP0005,EMP036,Training/Certification,16868,INR,2026-02-07,2026-02-11,Approved,Training/Certification expense incurred on 07 Feb 2026,EMP027
+EXP0006,EMP008,Internet Reimbursement,1048,INR,2026-03-13,2026-03-20,Approved,Internet Reimbursement expense incurred on 13 Mar 2026,EMP040
+EXP0007,EMP047,Office Supplies,1231,INR,2026-08-23,2026-08-23,Reimbursed,Office Supplies expense incurred on 23 Aug 2026,EMP024
+EXP0008,EMP035,Accommodation,2893,INR,2026-05-21,2026-05-28,Approved,Accommodation expense incurred on 21 May 2026,EMP043
+EXP0009,EMP001,Office Supplies,1055,INR,2026-05-12,2026-05-19,Approved,Office Supplies expense incurred on 12 May 2026,EMP022
+EXP0010,EMP053,Client Meal,2514,INR,2026-07-01,2026-07-10,Approved,Client Meal expense incurred on 01 Jul 2026,EMP017
+EXP0011,EMP006,Internet Reimbursement,926,INR,2026-01-14,2026-01-20,Pending,Internet Reimbursement expense incurred on 14 Jan 2026,EMP029
+EXP0012,EMP029,Office Supplies,2843,INR,2026-05-22,2026-05-23,Approved,Office Supplies expense incurred on 22 May 2026,EMP027
+EXP0013,EMP041,Internet Reimbursement,660,INR,2026-05-02,2026-05-04,Approved,Internet Reimbursement expense incurred on 02 May 2026,EMP017
+EXP0014,EMP027,Cab/Local Conveyance,1597,INR,2026-07-26,2026-07-30,Reimbursed,Cab/Local Conveyance expense incurred on 26 Jul 2026,EMP029
+EXP0015,EMP030,Client Meal,1456,INR,2026-02-08,2026-02-16,Approved,Client Meal expense incurred on 08 Feb 2026,EMP055
+EXP0016,EMP042,Accommodation,4330,INR,2026-08-21,2026-08-30,Approved,Accommodation expense incurred on 21 Aug 2026,EMP040
+EXP0017,EMP029,Client Meal,3320,INR,2026-01-20,2026-01-27,Pending,Client Meal expense incurred on 20 Jan 2026,EMP027
+EXP0018,EMP006,Travel,15656,INR,2026-02-14,2026-02-24,Rejected,Travel expense incurred on 14 Feb 2026,EMP029
+EXP0019,EMP038,Travel,23529,INR,2026-05-24,2026-06-03,Pending,Travel expense incurred on 24 May 2026,EMP024
+EXP0020,EMP018,Accommodation,12400,INR,2026-06-13,2026-06-19,Approved,Accommodation expense incurred on 13 Jun 2026,EMP002
+EXP0021,EMP021,Client Meal,1850,INR,2026-02-26,2026-03-06,Approved,Client Meal expense incurred on 26 Feb 2026,EMP055
+EXP0022,EMP030,Client Meal,1533,INR,2026-01-30,2026-02-07,Pending,Client Meal expense incurred on 30 Jan 2026,EMP055
+EXP0023,EMP027,Travel,7646,INR,2026-08-04,2026-08-07,Approved,Travel expense incurred on 04 Aug 2026,EMP029
+EXP0024,EMP036,Accommodation,13440,INR,2026-03-01,2026-03-04,Reimbursed,Accommodation expense incurred on 01 Mar 2026,EMP027
+EXP0025,EMP011,Office Supplies,681,INR,2026-05-24,2026-05-25,Reimbursed,Office Supplies expense incurred on 24 May 2026,EMP012
+EXP0026,EMP054,Accommodation,6781,INR,2026-05-30,2026-06-02,Pending,Accommodation expense incurred on 30 May 2026,EMP040
+EXP0027,EMP036,Accommodation,11820,INR,2026-04-12,2026-04-18,Approved,Accommodation expense incurred on 12 Apr 2026,EMP027
+EXP0028,EMP051,Office Supplies,2704,INR,2026-05-22,2026-05-30,Pending,Office Supplies expense incurred on 22 May 2026,EMP024
+EXP0029,EMP023,Training/Certification,12544,INR,2026-05-07,2026-05-10,Rejected,Training/Certification expense incurred on 07 May 2026,EMP029
+EXP0030,EMP025,Internet Reimbursement,1262,INR,2026-08-15,2026-08-25,Approved,Internet Reimbursement expense incurred on 15 Aug 2026,EMP010
+EXP0031,EMP032,Travel,5636,INR,2026-02-19,2026-02-26,Approved,Travel expense incurred on 19 Feb 2026,EMP024
+EXP0032,EMP047,Accommodation,4529,INR,2026-06-23,2026-06-29,Reimbursed,Accommodation expense incurred on 23 Jun 2026,EMP024
+EXP0033,EMP006,Training/Certification,17989,INR,2026-02-27,2026-03-08,Approved,Training/Certification expense incurred on 27 Feb 2026,EMP029
+EXP0034,EMP016,Office Supplies,703,INR,2026-04-06,2026-04-10,Approved,Office Supplies expense incurred on 06 Apr 2026,EMP004
+EXP0035,EMP003,Training/Certification,6770,INR,2026-06-12,2026-06-18,Rejected,Training/Certification expense incurred on 12 Jun 2026,EMP012
+EXP0036,EMP044,Accommodation,3293,INR,2026-03-14,2026-03-16,Approved,Accommodation expense incurred on 14 Mar 2026,EMP014
+EXP0037,EMP030,Office Supplies,2205,INR,2026-03-18,2026-03-20,Approved,Office Supplies expense incurred on 18 Mar 2026,EMP055
+EXP0038,EMP029,Training/Certification,10195,INR,2026-07-01,2026-07-05,Approved,Training/Certification expense incurred on 01 Jul 2026,EMP027
+EXP0039,EMP025,Cab/Local Conveyance,754,INR,2026-01-18,2026-01-18,Reimbursed,Cab/Local Conveyance expense incurred on 18 Jan 2026,EMP010
+EXP0040,EMP026,Office Supplies,500,INR,2026-04-21,2026-04-24,Rejected,Office Supplies expense incurred on 21 Apr 2026,EMP055
+EXP0041,EMP052,Training/Certification,6481,INR,2026-08-30,2026-09-09,Reimbursed,Training/Certification expense incurred on 30 Aug 2026,EMP024
+EXP0042,EMP003,Office Supplies,838,INR,2026-08-30,2026-09-05,Approved,Office Supplies expense incurred on 30 Aug 2026,EMP012
+EXP0043,EMP013,Accommodation,10697,INR,2026-01-18,2026-01-25,Approved,Accommodation expense incurred on 18 Jan 2026,EMP052
+EXP0044,EMP048,Training/Certification,15022,INR,2026-02-21,2026-02-22,Pending,Training/Certification expense incurred on 21 Feb 2026,EMP035
+EXP0045,EMP001,Office Supplies,1373,INR,2026-03-06,2026-03-07,Reimbursed,Office Supplies expense incurred on 06 Mar 2026,EMP022
+EXP0046,EMP015,Cab/Local Conveyance,279,INR,2026-08-14,2026-08-24,Pending,Cab/Local Conveyance expense incurred on 14 Aug 2026,EMP022
+EXP0047,EMP045,Office Supplies,485,INR,2026-08-02,2026-08-03,Approved,Office Supplies expense incurred on 02 Aug 2026,EMP052
+EXP0048,EMP016,Accommodation,8078,INR,2026-08-01,2026-08-03,Pending,Accommodation expense incurred on 01 Aug 2026,EMP004
+EXP0049,EMP042,Client Meal,3021,INR,2026-03-31,2026-04-03,Pending,Client Meal expense incurred on 31 Mar 2026,EMP040
+EXP0050,EMP029,Internet Reimbursement,876,INR,2026-02-08,2026-02-12,Approved,Internet Reimbursement expense incurred on 08 Feb 2026,EMP027
+EXP0051,EMP008,Cab/Local Conveyance,1761,INR,2026-07-21,2026-07-26,Approved,Cab/Local Conveyance expense incurred on 21 Jul 2026,EMP040
+EXP0052,EMP009,Internet Reimbursement,1067,INR,2026-06-20,2026-06-22,Rejected,Internet Reimbursement expense incurred on 20 Jun 2026,EMP052
+EXP0053,EMP001,Office Supplies,1014,INR,2026-05-29,2026-05-29,Approved,Office Supplies expense incurred on 29 May 2026,EMP022
+EXP0054,EMP001,Training/Certification,10695,INR,2026-08-27,2026-09-02,Rejected,Training/Certification expense incurred on 27 Aug 2026,EMP022
+EXP0055,EMP008,Client Meal,2336,INR,2026-06-08,2026-06-11,Rejected,Client Meal expense incurred on 08 Jun 2026,EMP040
+EXP0056,EMP003,Office Supplies,2261,INR,2026-01-02,2026-01-03,Pending,Office Supplies expense incurred on 02 Jan 2026,EMP012
+EXP0057,EMP046,Cab/Local Conveyance,713,INR,2026-07-17,2026-07-26,Reimbursed,Cab/Local Conveyance expense incurred on 17 Jul 2026,EMP050
+EXP0058,EMP038,Training/Certification,18565,INR,2026-03-14,2026-03-15,Reimbursed,Training/Certification expense incurred on 14 Mar 2026,EMP024
+EXP0059,EMP008,Internet Reimbursement,923,INR,2026-06-10,2026-06-11,Approved,Internet Reimbursement expense incurred on 10 Jun 2026,EMP040
+EXP0060,EMP028,Training/Certification,17540,INR,2026-08-16,2026-08-17,Approved,Training/Certification expense incurred on 16 Aug 2026,EMP052
+EXP0061,EMP028,Client Meal,3825,INR,2026-02-02,2026-02-08,Approved,Client Meal expense incurred on 02 Feb 2026,EMP052
+EXP0062,EMP043,Mobile Bill,991,INR,2026-01-28,2026-01-31,Approved,Mobile Bill expense incurred on 28 Jan 2026,EMP035
+EXP0063,EMP043,Cab/Local Conveyance,1711,INR,2026-01-26,2026-01-30,Rejected,Cab/Local Conveyance expense incurred on 26 Jan 2026,EMP035
+EXP0064,EMP015,Mobile Bill,1023,INR,2026-05-14,2026-05-18,Approved,Mobile Bill expense incurred on 14 May 2026,EMP022
+EXP0065,EMP012,Office Supplies,1691,INR,2026-03-07,2026-03-09,Rejected,Office Supplies expense incurred on 07 Mar 2026,EMP040
+EXP0066,EMP043,Mobile Bill,1164,INR,2026-05-27,2026-05-30,Pending,Mobile Bill expense incurred on 27 May 2026,EMP035
+EXP0067,EMP027,Cab/Local Conveyance,468,INR,2026-06-23,2026-06-25,Rejected,Cab/Local Conveyance expense incurred on 23 Jun 2026,EMP029
+EXP0068,EMP004,Client Meal,2314,INR,2026-02-19,2026-02-22,Rejected,Client Meal expense incurred on 19 Feb 2026,EMP054
+EXP0069,EMP008,Training/Certification,17945,INR,2026-06-03,2026-06-07,Approved,Training/Certification expense incurred on 03 Jun 2026,EMP040
+EXP0070,EMP015,Mobile Bill,1185,INR,2026-03-05,2026-03-09,Approved,Mobile Bill expense incurred on 05 Mar 2026,EMP022
+EXP0071,EMP021,Client Meal,2537,INR,2026-04-29,2026-05-02,Rejected,Client Meal expense incurred on 29 Apr 2026,EMP055
+EXP0072,EMP036,Training/Certification,2614,INR,2026-08-08,2026-08-13,Rejected,Training/Certification expense incurred on 08 Aug 2026,EMP027
+EXP0073,EMP028,Mobile Bill,421,INR,2026-07-24,2026-07-26,Rejected,Mobile Bill expense incurred on 24 Jul 2026,EMP052
+EXP0074,EMP030,Training/Certification,15121,INR,2026-01-23,2026-01-29,Approved,Training/Certification expense incurred on 23 Jan 2026,EMP055
+EXP0075,EMP048,Training/Certification,18727,INR,2026-04-13,2026-04-21,Rejected,Training/Certification expense incurred on 13 Apr 2026,EMP035
+EXP0076,EMP013,Training/Certification,9742,INR,2026-03-08,2026-03-12,Approved,Training/Certification expense incurred on 08 Mar 2026,EMP052
+EXP0077,EMP012,Accommodation,4902,INR,2026-01-01,2026-01-10,Rejected,Accommodation expense incurred on 01 Jan 2026,EMP040
+EXP0078,EMP029,Training/Certification,17365,INR,2026-07-06,2026-07-10,Approved,Training/Certification expense incurred on 06 Jul 2026,EMP027
+EXP0079,EMP038,Travel,13032,INR,2026-06-04,2026-06-09,Approved,Travel expense incurred on 04 Jun 2026,EMP024
+EXP0080,EMP005,Client Meal,2933,INR,2026-03-05,2026-03-14,Reimbursed,Client Meal expense incurred on 05 Mar 2026,EMP040
+EXP0081,EMP013,Training/Certification,16762,INR,2026-06-29,2026-07-04,Reimbursed,Training/Certification expense incurred on 29 Jun 2026,EMP052
+EXP0082,EMP006,Accommodation,13593,INR,2026-05-14,2026-05-16,Approved,Accommodation expense incurred on 14 May 2026,EMP029
+EXP0083,EMP024,Office Supplies,2748,INR,2026-04-14,2026-04-19,Approved,Office Supplies expense incurred on 14 Apr 2026,EMP043
+EXP0084,EMP022,Client Meal,3278,INR,2026-01-03,2026-01-12,Reimbursed,Client Meal expense incurred on 03 Jan 2026,EMP017
+EXP0085,EMP010,Training/Certification,6225,INR,2026-01-19,2026-01-20,Approved,Training/Certification expense incurred on 19 Jan 2026,EMP049
+EXP0086,EMP036,Mobile Bill,495,INR,2026-08-02,2026-08-12,Pending,Mobile Bill expense incurred on 02 Aug 2026,EMP027
+EXP0087,EMP033,Training/Certification,13197,INR,2026-08-07,2026-08-10,Approved,Training/Certification expense incurred on 07 Aug 2026,EMP048
+EXP0088,EMP009,Accommodation,14912,INR,2026-05-13,2026-05-21,Approved,Accommodation expense incurred on 13 May 2026,EMP052
+EXP0089,EMP043,Training/Certification,7316,INR,2026-07-21,2026-07-30,Approved,Training/Certification expense incurred on 21 Jul 2026,EMP035
+EXP0090,EMP047,Cab/Local Conveyance,733,INR,2026-05-21,2026-05-28,Approved,Cab/Local Conveyance expense incurred on 21 May 2026,EMP024

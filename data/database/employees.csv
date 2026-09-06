@@ -1,11 +1,56 @@
-employee_id,name,department,designation,location,joining_date
-EMP001,Ananya Sharma,Engineering,Senior Software Engineer,Bengaluru,2023-06-12
-EMP002,Rahul Kumar,Data,Data Analyst,Chennai,2024-01-15
-EMP003,Priya Nair,HR,HR Executive,Bengaluru,2022-08-20
-EMP004,Arjun Rao,Engineering,Software Engineer,Hyderabad,2024-05-10
-EMP005,Meera Singh,Finance,Finance Analyst,Pune,2023-11-01
-EMP006,Karthik Iyer,Data,Data Scientist,Chennai,2023-03-18
-EMP007,Sneha Patel,Engineering,Software Engineer,Bengaluru,2024-07-22
-EMP008,Vikram Joshi,Finance,Finance Manager,Pune,2021-09-14
-EMP009,Divya Menon,HR,HR Manager,Hyderabad,2020-02-10
-EMP010,Rohan Gupta,Engineering,Engineering Manager,Bengaluru,2019-06-25
+employee_id,name,email,department,designation,location_id,manager_id,date_of_joining,employment_type,status
+EMP001,Aryan Maharaj,aryan.maharaj@technova.com,Engineering,QA Engineer,L031,EMP022,2020-11-01,Full-Time,Active
+EMP002,Harsh Chahal,harsh.chahal@technova.com,Product,Product Manager,L013,EMP010,2023-06-05,Full-Time,Active
+EMP003,Ayushman Chander,ayushman.chander@technova.com,Design,UI Designer,L023,EMP012,2020-08-21,Contract,Active
+EMP004,Rushil Saini,rushil.saini@technova.com,Sales,Sales Manager,L004,EMP054,2020-08-26,Full-Time,Active
+EMP005,Abeer Dutta,abeer.dutta@technova.com,Marketing,Content Strategist,L022,EMP040,2024-03-25,Full-Time,Active
+EMP006,Arunima Dugal,arunima.dugal@technova.com,HR,HR Executive,L035,EMP029,2020-08-12,Contract,Active
+EMP007,Harsh Chanda,harsh.chanda@technova.com,Finance,Finance Analyst,L018,EMP027,2021-11-05,Contract,Active
+EMP008,Hemangini Lalla,hemangini.lalla@technova.com,IT,IT Support Engineer,L029,EMP040,2025-01-18,Intern,Active
+EMP009,Jeet Radhakrishnan,jeet.radhakrishnan@technova.com,Customer Support,Support Associate,L006,EMP052,2019-08-04,Full-Time,Active
+EMP010,Janaki Handa,janaki.handa@technova.com,Operations,Operations Manager,L031,EMP049,2024-04-12,Full-Time,On Leave
+EMP011,Vedant Mann,vedant.mann@technova.com,Engineering,Software Engineer,L011,EMP012,2026-05-20,Contract,Active
+EMP012,Harrison Rai,harrison.rai@technova.com,Product,Product Manager,L017,EMP040,2021-01-30,Contract,Active
+EMP013,Nicholas Prabhakar,nicholas.prabhakar@technova.com,Design,Design Lead,L047,EMP052,2021-08-30,Intern,Active
+EMP014,Ekbal Garg,ekbal.garg@technova.com,Sales,Account Manager,L010,EMP018,2023-01-01,Full-Time,Active
+EMP015,Nihal Shere,nihal.shere@technova.com,Marketing,Marketing Associate,L038,EMP022,2021-11-04,Intern,Active
+EMP016,Ekta Bhalla,ekta.bhalla@technova.com,HR,HR Business Partner,L004,EMP004,2020-09-18,Full-Time,Active
+EMP017,Diya Rattan,diya.rattan@technova.com,Finance,Finance Manager,L034,EMP043,2021-01-02,Full-Time,Active
+EMP018,Divya Kala,divya.kala@technova.com,IT,IT Manager,L006,EMP002,2023-11-29,Full-Time,Active
+EMP019,Tara Dhar,tara.dhar@technova.com,Customer Support,Support Associate,L044,EMP048,2020-12-25,Full-Time,Active
+EMP020,Adya Sangha,adya.sangha@technova.com,Operations,Operations Executive,L038,EMP049,2025-09-23,Intern,Active
+EMP021,Janaki Kanda,janaki.kanda@technova.com,Engineering,Software Engineer,L027,EMP055,2026-06-22,Intern,Active
+EMP022,Yashodhara Tak,yashodhara.tak@technova.com,Product,Product Manager,L017,EMP017,2019-09-06,Full-Time,Active
+EMP023,Imaran Dua,imaran.dua@technova.com,Design,UI Designer,L016,EMP029,2023-09-14,Full-Time,Active
+EMP024,Devansh Rajan,devansh.rajan@technova.com,Sales,Sales Manager,L042,EMP043,2021-11-10,Full-Time,Active
+EMP025,Zayan Apte,zayan.apte@technova.com,Marketing,Marketing Associate,L001,EMP010,2024-02-05,Contract,Active
+EMP026,Amara Oak,amara.oak@technova.com,HR,Talent Acquisition Specialist,L007,EMP055,2019-11-02,Full-Time,Active
+EMP027,Nakul Setty,nakul.setty@technova.com,Finance,Finance Manager,L017,EMP029,2019-01-09,Full-Time,Active
+EMP028,Xiti Gokhale,xiti.gokhale@technova.com,IT,IT Support Engineer,L016,EMP052,2022-10-21,Full-Time,Active
+EMP029,Chanchal Tripathi,chanchal.tripathi@technova.com,Customer Support,Support Team Lead,L035,EMP027,2023-07-25,Full-Time,Active
+EMP030,Kashvi Edwin,kashvi.edwin@technova.com,Operations,Operations Executive,L043,EMP055,2023-01-16,Intern,Active
+EMP031,Ekiya Suresh,ekiya.suresh@technova.com,Engineering,Software Engineer,L009,EMP012,2019-02-23,Full-Time,Active
+EMP032,Damyanti Khatri,damyanti.khatri@technova.com,Product,Product Analyst,L048,EMP024,2019-06-08,Intern,Active
+EMP033,Frederick Sunder,frederick.sunder@technova.com,Design,UI Designer,L039,EMP048,2025-02-11,Full-Time,Active
+EMP034,Kabir Soman,kabir.soman@technova.com,Sales,Sales Executive,L044,EMP024,2026-02-04,Full-Time,Active
+EMP035,Alka Wable,alka.wable@technova.com,Marketing,Marketing Manager,L004,EMP043,2025-07-15,Full-Time,Active
+EMP036,Siddharth Zacharia,siddharth.zacharia@technova.com,HR,HR Business Partner,L003,EMP027,2024-08-29,Full-Time,Active
+EMP037,Devika Rastogi,devika.rastogi@technova.com,Finance,Finance Analyst,L041,EMP035,2026-06-16,Full-Time,Active
+EMP038,Raksha Varughese,raksha.varughese@technova.com,IT,System Administrator,L036,EMP024,2022-05-20,Contract,Active
+EMP039,Umang Bhatt,umang.bhatt@technova.com,Customer Support,Support Associate,L005,EMP049,2021-07-14,Full-Time,Active
+EMP040,Thomas Amble,thomas.amble@technova.com,Operations,Operations Manager,L038,EMP013,2019-07-14,Intern,Active
+EMP041,Veer Bir,veer.bir@technova.com,Engineering,Senior Software Engineer,L003,EMP017,2025-10-14,Full-Time,Active
+EMP042,Ekavir Varkey,ekavir.varkey@technova.com,Product,Product Analyst,L023,EMP040,2020-10-13,Full-Time,Active
+EMP043,Tanish Zacharia,tanish.zacharia@technova.com,Design,Design Lead,L007,EMP035,2019-12-29,Full-Time,Active
+EMP044,Xavier Solanki,xavier.solanki@technova.com,Sales,Account Manager,L040,EMP014,2025-01-19,Full-Time,Active
+EMP045,Girindra Chatterjee,girindra.chatterjee@technova.com,Marketing,Marketing Associate,L011,EMP052,2023-12-09,Full-Time,On Leave
+EMP046,Pallavi Roy,pallavi.roy@technova.com,HR,HR Executive,L012,EMP050,2022-07-02,Full-Time,Active
+EMP047,Guneet Bhat,guneet.bhat@technova.com,Finance,Accounts Executive,L043,EMP024,2022-01-06,Full-Time,Active
+EMP048,Ikbal Kothari,ikbal.kothari@technova.com,IT,IT Manager,L007,EMP035,2020-06-08,Contract,On Leave
+EMP049,Logan Sami,logan.sami@technova.com,Customer Support,Support Team Lead,L015,EMP050,2020-05-17,Full-Time,Active
+EMP050,Zaid Borra,zaid.borra@technova.com,Operations,Operations Manager,L023,EMP002,2022-04-27,Full-Time,Active
+EMP051,Chandresh Zachariah,chandresh.zachariah@technova.com,Engineering,Senior Software Engineer,L015,EMP024,2025-04-07,Full-Time,Active
+EMP052,Warjas Ganesan,warjas.ganesan@technova.com,Product,Product Manager,L022,EMP024,2022-01-17,Full-Time,On Leave
+EMP053,Tanay Rattan,tanay.rattan@technova.com,Design,UI Designer,L023,EMP017,2025-10-05,Intern,Active
+EMP054,Ladli Agate,ladli.agate@technova.com,Sales,Sales Manager,L022,EMP040,2026-05-20,Full-Time,Active
+EMP055,Suhani Mangal,suhani.mangal@technova.com,Marketing,Marketing Manager,L012,EMP050,2022-03-03,Intern,Active
