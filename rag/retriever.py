@@ -67,8 +67,7 @@ def retrieve(query, top_k=3):
 
 if __name__ == "__main__":
 
-    query = "What is the maximum hotel rate for an Associate?"
-
+    query = "Where are the Novatrix offices located?"
     results = retrieve(query)
 
     print("\nQuery:", query)
